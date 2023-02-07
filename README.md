@@ -5,6 +5,8 @@ I was looking for an interesting project to do and stumbled upon a dataset of 35
 ## Data Exploration / Feature Engineering
 The first thing I did was get all my liked songs from spotify, and joined those songs with the data set. There wasn't anything too interesting going on in the data exploration portion of the project although it was interesting to see that a majority of my liked songs were lower and valence and lower in duration. Going along with this, there wasn't room for much feautre engineering as well due to each feature being distinct. I did drop most of the genres I would never listen too though. 
 
+![alt text](https://github.com/scheott/Spotify_Song_Predictor/blob/main/Screenshot%202023-02-06%20195635.png)
+
 ## Modeling
 This was a binary classification problem and I wanted to see the results of multiple different models. I used Support Vector Classification, XGBoost, Gaussian Naive Bayes, Logistic Regression, Decision Tree, and Random Forest. XGBoost has the best accuracy, but I chose to go with Decision Tree due to the fact that it had higher cardinality in the predictions of new songs.
 
